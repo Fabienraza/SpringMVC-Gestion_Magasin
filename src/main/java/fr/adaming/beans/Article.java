@@ -73,8 +73,8 @@ public class Article {
  *****************************************************/
 	@Override
 	public String toString() {
-		return "Article [idArticle=" + idArticle + ", nomArticle=" + nomArticle + ", descArticle=" + descArticle
-				+ ", prix=" + prix + "]";
+		return " iD de l'article = " + idArticle + ", nom Article = " + nomArticle + ", Description Article = " + descArticle
+				+ ", Prix = " + prix + " euros.";
 	}
 	
 	

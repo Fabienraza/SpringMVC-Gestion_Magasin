@@ -11,12 +11,10 @@
 		<h3>La liste des articles enregistrés </h3>
 		
 		<c:forEach items="${listeArticles}" var="l">
-
-		
 			<h5> Nom article : ${l.nomArticle} </h5>
 			<h5> Description article : ${l.descArticle} </h5>
-			<h5> prix : ${l.prix}</h5>
-			
+			<h5> Prix : ${l.prix}</h5>
+			<h5><a href="/app/find/${l.idArticle}">Plus d'information sur le produit</a></h5>
 		</c:forEach>
 	</body>
 </html>

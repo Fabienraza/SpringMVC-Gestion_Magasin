@@ -8,6 +8,7 @@
 	</head>
 	
 	<body>
-		
+		<h4>Plus d'information</h4>
+		<h6>${FindArticle}</h6>
 	</body>
 </html>
