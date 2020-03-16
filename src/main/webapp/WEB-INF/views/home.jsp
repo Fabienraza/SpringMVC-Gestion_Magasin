@@ -6,7 +6,9 @@
 		<title>Home page</title>
 	</head>
 	<body>
-		<h1>Hello world!</h1>
-		<P> The time on the server is ${serverTime}.</P>
+		<h1>bienvenue sur la page d'accueil</h1>
+		<P> La date du jour : ${serverTime}.</P>
+		
+		<a href="/app/liste"> Liste des articles </a>
 	</body>
 </html>

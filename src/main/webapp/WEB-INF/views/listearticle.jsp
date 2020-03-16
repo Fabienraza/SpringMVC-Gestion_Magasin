@@ -8,6 +8,15 @@
 	</head>
 	
 	<body>
-	
+		<h3>La liste des articles enregistrés </h3>
+		
+		<c:forEach items="${listeArticles}" var="l">
+
+		
+			<h5> Nom article : ${l.nomArticle} </h5>
+			<h5> Description article : ${l.descArticle} </h5>
+			<h5> prix : ${l.prix}</h5>
+			
+		</c:forEach>
 	</body>
 </html>
